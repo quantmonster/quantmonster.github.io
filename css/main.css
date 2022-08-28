@@ -65,6 +65,12 @@ a:visited { color: #205caa; }
   text-decoration: none;
 }
 
+.site-title .title-link {
+  color: black;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
 /*
 .site-nav {
   float: right;
