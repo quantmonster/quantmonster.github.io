@@ -43,7 +43,9 @@ a:visited { color: #205caa; }
 
 .site-header {
   /*border-top: 5px solid #333;*/
-  border-bottom: 0px solid #e6e6e6;
+  /*border-bottom: 1px solid #e6e6e6;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
   /*min-height: 56px;*/
   color: black;
   background-color: #2a7ae2;
