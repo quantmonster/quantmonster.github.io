@@ -1,44 +1,18 @@
-title: "Justin Skycak blog"
-author: "Justin Skycak"
-url: https://quant.monster
+# Site settings
+title: Justin Skycak blog
+email: 
+#description: "Musings of a Computer Scientist."
+baseurl: ""
+url: "http://quantmonster.github.io"
+#twitter_username: karpathy
+#github_username:  karpathy
 
-#description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+# Build settings
+markdown: kramdown
+permalink: pretty
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-#email: "example@mail.com"
-#twitter_username: "twitteruser"
-#github_username: "githubuser"
-#linkedin_username: "linkedinuser"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
-
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
-
-#rss: rss
-
+highlighter: rouge
 kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-titles_from_headings:
-  strip_title: true
-  collections: true
-
-defaults:
-  - scope:
-      path: ""
-      type: post
-    values:
-      tags: Other
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
