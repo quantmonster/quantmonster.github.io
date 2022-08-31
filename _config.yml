@@ -9,7 +9,7 @@ url: "http://quantmonster.github.io"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:title
 
 highlighter: rouge
 kramdown:
