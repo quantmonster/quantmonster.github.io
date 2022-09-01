@@ -183,7 +183,7 @@ a:visited { color: #2a7ae2; }
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
-  color: #2a7ae2;
+  color: #D3AD62; /* #2a7ae2; */
 }
 
 .post-header .meta {
