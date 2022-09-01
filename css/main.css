@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; color: #e6e6e6 }
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #e6e6e6; text-decoration: underline; }
-a:visited { color: #205caa; }
+a:visited { color: #2a7ae2; }
 
 /* Utility */
 
@@ -174,7 +174,10 @@ a:visited { color: #205caa; }
 /* Post styles */
 /* ----------------------------------------------------------*/
 
-.post-header { margin: 10px 0 30px; }
+.post-header { 
+  margin: 10px 0 30px;
+  color: #2a7ae2;
+}
 
 .post-header h1 {
   font-size: 36px;
@@ -185,7 +188,7 @@ a:visited { color: #205caa; }
 
 .post-header .meta {
   font-size: 15px;
-  color: #e6e6e6;
+  color: #818181;
   margin-top: 5px;
 }
 
