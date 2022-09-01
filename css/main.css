@@ -176,7 +176,6 @@ a:visited { color: #2a7ae2; }
 
 .post-header { 
   margin: 10px 0 30px;
-  color: #2a7ae2;
 }
 
 .post-header h1 {
@@ -184,6 +183,7 @@ a:visited { color: #2a7ae2; }
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
+  color: #2a7ae2;
 }
 
 .post-header .meta {
