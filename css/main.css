@@ -20,7 +20,7 @@ body {
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; color: #e6e6e6 }
 
 a         { color: #2A7AE2; text-decoration: none; }
-a:hover   { color: #2A7AE2; text-decoration: underline; }
+a:hover   { color: black; text-decoration: underline; }
 a:visited { color: #2A7AE2; }
 
 /* Utility */
