@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The 5 breeds of quants"
-excerpt: "Wizard, revolutionary, philosopher, specialist, businessperson."
+excerpt: "Wizard, revolutionary, philosopher, scientist, businessperson."
 ---
 
 ... are summarized in the following table.
