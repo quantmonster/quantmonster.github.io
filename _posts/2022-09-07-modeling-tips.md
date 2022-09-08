@@ -4,6 +4,8 @@ title:  "Tips for Developing Valuable Models"
 excerpt: "In progress..."
 ---
 
+(test)
+
 <h3>Focus on solving a problem that fits you.</h3>
 <ul>
  <li>A model's value is measured by how well it solves a problem. To solve a problem, you need 1) the ability to solve it and 2) the persistence to stick with it throughout all the difficulties that will surely arise (otherwise the problem would already have been solved).</li>
