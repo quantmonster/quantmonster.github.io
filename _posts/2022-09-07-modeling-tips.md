@@ -4,23 +4,21 @@ title:  "Tips for Developing Valuable Models"
 excerpt: "In progress..."
 ---
 
-
-<h2>Focus on solving a problem that fits you.</h2>
+<h3>Focus on solving a problem that fits you.</h3>
 <ul>
  <li>A model's value is measured by how well it solves a problem. To solve a problem, you need 1) the ability to solve it and 2) the persistence to stick with it throughout all the difficulties that will surely arise (otherwise the problem would already have been solved).</li>
  <li>The ability to solve a problem is a combination of domain knowledge and technical expertise -- domain knowledge to envision a feasible solution, and technical expertise to make that vision a reality.</li>
  <li>The willingness to persist has a more emotional root -- doing something you love, wanting to fix something that angers you, a drive to conquer an opponent, etc. The more emotional connection you have to a problem, the easier it will be to stay motivated and persistent.</li>
 </ul>
  
-<h2>Consider the full problem from the beginning.</h2>
+<h4>Consider the full problem from the beginning.</h4>
 <ul>
   <li>A model is worthless if it does not solve the desired problem. Even if it's elegant and theoretically interesting -- if it doesn't actually solve a problem, then it's worthless.</li>
   <li>It is easier to simplify a convoluted model that solves the problem, than to extend an elegant model that does not solve the problem.</li>
   <li>Models that are intentionally designed to solve solve specific real problems usually turn out to be theoretically interesting and fun to build, but a theoretically interesting and fun-to-develop model designed in a vacuum will rarely happen to solve any sort of real problem.</li> 
 </ul>
  
-<br>
-<b>Both you and your model need to understand the full context surrounding the problem.</b>
+<h5>Both you and your model need to understand the full context surrounding the problem.</h5>
 <ul>
   <li>The first step to developing a model is to gather domain knowledge and fully grasp the context in which the model is meant to exist. If you skip this step, then your model might work in theory but probably not in real life.</li>
   <li>In order to gather domain knowledge, you need to engage in hands-on experience. So, avoid domains where you're averse to doing things manually and getting your hands dirty.</li>
@@ -28,8 +26,7 @@ excerpt: "In progress..."
   <li>Once a model is detecting and leveraging most of signal in the data, it's higher ROI to improve the quality and breadth of data than to increase the algorithmic complexity of the model.</li> 
 </ul>
  
-<br>
-<b>Choose the right level for your first principles.</b>
+<h6>Choose the right level for your first principles.</h6>
 <ul>
  <li>It is often more efficient to manually encode expert knowledge in a structured data set and build a model on top of that, than to attempt to build a model that does everything from scratch.</li>
  <li>It's easy to rationalize that manually encoding expert knowledge takes too long. But if spending several weeks (or even months) creating a structured data set by hand will allow your model to accomplish important goals that it couldn't otherwise, then it's totally worth doing.</li>
