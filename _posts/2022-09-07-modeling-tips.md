@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tips for Developing Valuable Models"
-excerpt: "Stuff you don't learn in math textbooks."
+excerpt: "Stuff you don't find in math textbooks."
 ---
 
 <h3>Focus on solving a problem that fits you.</h3>
