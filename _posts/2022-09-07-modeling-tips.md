@@ -66,7 +66,7 @@ excerpt: "Stuff you don't learn in math textbooks."
  
 <h3>Never stall out. (Corollary: Control the data-generating process.)</h3>
 <ul>
- <li>Keep forward momentum. If a model is not producing a desired behavior and you're out of ideas, then temporarily hard-code the desired behavior as an "intervention", move on, and periodically revisit the intervention to try out more elegant ideas.</li>
+ <li>Keep forward momentum. If a model is not producing a desired behavior and you're out of ideas, then temporarily hard-code the desired behavior as an "intervention," move on, and periodically revisit the intervention to try out more elegant ideas.</li>
  <li>If you don't control the data-generating process, then it becomes vastly more difficult (and sometimes impossible) to resolve data issues. You either need to own the data-generating process yourself or have trust, a good relationship, an open line of communication with the person who does.</li>
  <li>Don't embark on a project unless you have some solid ideas on how to approach it. If your desired outcome feels magical, then you probably don't (yet) have enough technical knowledge to achieve it.</li>
 </ul>
