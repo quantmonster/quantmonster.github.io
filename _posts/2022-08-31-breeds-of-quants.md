@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The 5 breeds of quants"
+title:  "The 5 Breeds of Quants"
 excerpt: "Wizard, revolutionary, philosopher, scientist, businessperson."
 ---
 
