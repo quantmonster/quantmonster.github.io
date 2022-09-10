@@ -29,11 +29,19 @@ Of course, this approach may lead to convoluted models. That's intentional. If y
 As it turns out, models that are intentionally designed to solve solve specific real problems usually turn out to be theoretically interesting and fun to build. You can have a model that is both intellectually stimulating and a valuable solution to a real problem. But you need to start by solving a real problem. Real solutions naturally generate interesting theory, but it doesn't work the other way around.
 
 
-<h3>Both you and your model need to understand the full context surrounding the problem.</h3>
+<h3>Make sure you understand the problem in reality, not just in theory.</h3>
+
+It's possible to convince yourself that you're starting with the problem, when you're actually not.
+
+If you don't have hands-on experience with all facets of the problem, then you'll probably make lots of assumptions that are plausible but false, which means you won't actually be solving the problem that you think you're solving. Your model might work in theory, but probably not in reality.
+
+To avoid this, you need to gather hands-on experience and domain knowledge before beginning the modeling process. (As a corollary, avoid domains where you're averse to doing things manually and getting your hands dirty.)
+
+
+<h3>Your model can only be as good as its underlying data.</h3>
+
 <ul>
-  <li>The first step to developing a model is to gather domain knowledge and fully grasp the context in which the model is meant to exist. If you skip this step, then your model might work in theory but probably not in real life.</li>
-  <li>In order to gather domain knowledge, you need to engage in hands-on experience. So, avoid domains where you're averse to doing things manually and getting your hands dirty.</li>
-  <li>A model can only be as good as the underlying data. If you want your model to do what an expert does, it needs to have all the information that an expert uses during their decision-making process. (Heard this one from Jason Roberts, who heard it from Peter Stone.)</li>
+  <li>If you want your model to do what an expert does, it needs to have all the information that an expert uses during their decision-making process. (Heard this one from Jason Roberts, who heard it from Peter Stone.)</li>
   <li>Once a model is detecting and leveraging most of signal in the data, it's higher ROI to improve the quality and breadth of data than to increase the algorithmic complexity of the model.</li> 
 </ul>
  
