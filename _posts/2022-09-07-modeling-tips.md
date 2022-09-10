@@ -35,7 +35,9 @@ It's possible to convince yourself that you're starting with the problem, when y
 
 If you don't have hands-on experience with all facets of the problem, then you'll probably make lots of assumptions that are plausible but false, which means you won't actually be solving the problem that you think you're solving. Your model might work in theory, but probably not in reality.
 
-To avoid this, you need to gather hands-on experience and domain knowledge before beginning the modeling process. (As a corollary, avoid domains where you're averse to doing things manually and getting your hands dirty.)
+To avoid this, you need to gather hands-on experience and domain knowledge before beginning the modeling process.
+
+(As a corollary, avoid domains where you're averse to doing things manually and getting your hands dirty.)
 
 
 <h3>Your model can only be as good as its underlying data.</h3>
