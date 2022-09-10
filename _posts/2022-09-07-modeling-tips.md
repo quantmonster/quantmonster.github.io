@@ -10,12 +10,12 @@ A model's value is measured by how well it solves a problem. To solve a problem,
 
 <ol>
 <li>the ability to solve it, and</li>
-<li>the persistence to stick with it</i> throughout all the difficulties that will surely arise (otherwise the problem would already have been solved).</li>
+<li>the persistence to stick with it throughout all the difficulties that will surely arise (otherwise the problem would already have been solved).</li>
 </ol>
 
 The ability to solve a problem is a combination of domain knowledge and technical expertise -- domain knowledge to envision a feasible solution, and technical expertise to make that vision a reality.
 
-The willingness to persist has a more emotional root -- doing something you love, wanting to fix something that angers you, a drive to conquer an opponent, etc. The more emotional connections you have to a problem, the easier it will be to stay motivated and persistent.
+Persistence has a more emotional root -- doing something you love, wanting to fix something that angers you, a drive to conquer an opponent, etc. The more emotional connections you have to a problem, the easier it will be to stay motivated and persistent.
 
  
 <h3>Start with the problem, not the model.</h3>
@@ -26,8 +26,9 @@ Now, I'm not suggesting to avoid elegant and theoretically interesting models. I
 
 Of course, this approach may lead to convoluted models. That's intentional. If you have a convoluted model that actually solves a problem, then all you have to do is simplify it. This is generally much easier than the alternative, extending an elegant model that does not solve the problem.
 
-And as it turns out, models that are intentionally designed to solve solve specific real problems usually turn out to be theoretically interesting and fun to build. You can have a model that is both intellectually stimulating and a valuable solution to a real problem. But you need to start by solving a real problem. Real solutions naturally generate interesting theory, but it doesn't work the other way around.
- 
+As it turns out, models that are intentionally designed to solve solve specific real problems usually turn out to be theoretically interesting and fun to build. You can have a model that is both intellectually stimulating and a valuable solution to a real problem. But you need to start by solving a real problem. Real solutions naturally generate interesting theory, but it doesn't work the other way around.
+
+
 <h3>Both you and your model need to understand the full context surrounding the problem.</h3>
 <ul>
   <li>The first step to developing a model is to gather domain knowledge and fully grasp the context in which the model is meant to exist. If you skip this step, then your model might work in theory but probably not in real life.</li>
