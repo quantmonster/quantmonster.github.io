@@ -10,7 +10,7 @@ A model's value is measured by how well it solves a problem. To solve a problem,
 
 <ol>
 <li>the ability to solve it, and</li>
-<li>the persistence to stick with it</i> throughout all the difficulties that will surely arise (otherwise the problem would already have been solved).
+<li>the persistence to stick with it</i> throughout all the difficulties that will surely arise (otherwise the problem would already have been solved).</li>
 </ol>
 
 The ability to solve a problem is a combination of domain knowledge and technical expertise -- domain knowledge to envision a feasible solution, and technical expertise to make that vision a reality.
