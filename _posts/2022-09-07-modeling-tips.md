@@ -5,11 +5,18 @@ excerpt: "Stuff you don't find in math textbooks."
 ---
 
 <h3>Focus on solving a problem that fits you.</h3>
-<ul>
- <li>A model's value is measured by how well it solves a problem. To solve a problem, you need 1) the ability to solve it and 2) the persistence to stick with it throughout all the difficulties that will surely arise (otherwise the problem would already have been solved).</li>
- <li>The ability to solve a problem is a combination of domain knowledge and technical expertise -- domain knowledge to envision a feasible solution, and technical expertise to make that vision a reality.</li>
- <li>The willingness to persist has a more emotional root -- doing something you love, wanting to fix something that angers you, a drive to conquer an opponent, etc. The more emotional connection you have to a problem, the easier it will be to stay motivated and persistent.</li>
-</ul>
+
+A model's value is measured by how well it solves a problem. To solve a problem, you need
+
+<ol>
+<li>the ability to solve it, and</li>
+<li>the persistence to stick with it</i> throughout all the difficulties that will surely arise (otherwise the problem would already have been solved).
+</ol>
+
+The ability to solve a problem is a combination of domain knowledge and technical expertise -- domain knowledge to envision a feasible solution, and technical expertise to make that vision a reality.
+
+The willingness to persist has a more emotional root -- doing something you love, wanting to fix something that angers you, a drive to conquer an opponent, etc. The more emotional connection you have to a problem, the easier it will be to stay motivated and persistent.
+
  
 <h3>Consider the full problem from the beginning.</h3>
 <ul>
