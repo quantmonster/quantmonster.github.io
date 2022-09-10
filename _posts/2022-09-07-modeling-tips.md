@@ -15,15 +15,18 @@ A model's value is measured by how well it solves a problem. To solve a problem,
 
 The ability to solve a problem is a combination of domain knowledge and technical expertise -- domain knowledge to envision a feasible solution, and technical expertise to make that vision a reality.
 
-The willingness to persist has a more emotional root -- doing something you love, wanting to fix something that angers you, a drive to conquer an opponent, etc. The more emotional connection you have to a problem, the easier it will be to stay motivated and persistent.
+The willingness to persist has a more emotional root -- doing something you love, wanting to fix something that angers you, a drive to conquer an opponent, etc. The more emotional connections you have to a problem, the easier it will be to stay motivated and persistent.
 
  
-<h3>Consider the full problem from the beginning.</h3>
-<ul>
-  <li>A model is worthless if it does not solve the desired problem. Even if it's elegant and theoretically interesting -- if it doesn't actually solve a problem, then it's worthless.</li>
-  <li>It is easier to simplify a convoluted model that solves the problem, than to extend an elegant model that does not solve the problem.</li>
-  <li>Models that are intentionally designed to solve solve specific real problems usually turn out to be theoretically interesting and fun to build, but a theoretically interesting and fun-to-develop model designed in a vacuum will rarely happen to solve any sort of real problem.</li> 
-</ul>
+<h3>Start with the problem, not the model.</h3>
+
+A model is worthless if it does not solve the desired problem. Even if it's elegant and theoretically interesting -- if it doesn't actually solve a problem, then it's worthless.
+
+Now, I'm not suggesting to avoid elegant and theoretically interesting models. I'm just saying that these qualities shouldn't be considered at the beginning of the model development process. When you start building a model, the only thing on your mind should be the problem that the model is intended to solve -- because, again, if your model doesn't solve this problem, then it's worthless.
+
+Of course, this approach may lead to convoluted models. That's intentional. If you have a convoluted model that actually solves a problem, then all you have to do is simplify it. This is generally much easier than the alternative, extending an elegant model that does not solve the problem.
+
+And as it turns out, models that are intentionally designed to solve solve specific real problems usually turn out to be theoretically interesting and fun to build. You can have a model that is both intellectually stimulating and a valuable solution to a real problem. But you need to start by solving a real problem. Real solutions naturally generate interesting theory, but it doesn't work the other way around.
  
 <h3>Both you and your model need to understand the full context surrounding the problem.</h3>
 <ul>
