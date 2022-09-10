@@ -15,7 +15,7 @@ A model's value is measured by how well it solves a problem. To solve a problem,
 
 The ability to solve a problem is a combination of domain knowledge and technical expertise -- domain knowledge to envision a feasible solution, and technical expertise to make that vision a reality.
 
-Persistence has a more emotional root -- doing something you love, wanting to fix something that angers you, a drive to conquer an opponent, etc. The more emotional connection you have to a problem, the easier it will be to stay motivated and persistent.
+Persistence has a more emotional root, e.g. doing something you love or fixing something that angers you. The greater the variety and strength of emotional connection you have with a problem, the easier it will be to stay motivated and persistent.
 
  
 <h3>Start with the problem, not the model.</h3>
