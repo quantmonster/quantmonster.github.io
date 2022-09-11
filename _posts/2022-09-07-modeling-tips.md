@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tips for Developing Valuable Models"
+title:  "(In Progress) Tips for Developing Valuable Models"
 excerpt: "Stuff you don't find in math textbooks."
 ---
 
