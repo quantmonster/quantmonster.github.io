@@ -4,6 +4,10 @@ title:  "(In Progress) Tips for Developing Valuable Models"
 excerpt: "Stuff you don't find in math textbooks."
 ---
 
+<style type="text/css">
+  h4 { font-weight: bold; }
+</style>
+
 <h2>The Problem</h2>
 
 <h4>Focus on solving a problem that fits you.</h4>
