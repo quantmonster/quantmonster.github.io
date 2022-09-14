@@ -48,12 +48,7 @@ Below are two strategies that you can use to avoid this tragic fate.
 
 The saying "crap in, crap out" is cliche for a reason. If you want your model to do what a human expert does, then it needs to have access to all the information that the human expert uses during their decision-making process (and this information needs to be correct).
 
-As a corollary, once a model is detecting and leveraging most of signal in the data, it's higher ROI to improve the quality and breadth of data than to increase the algorithmic complexity of the model.
-
-<ul>
-  <li></li>
-  <li>Once a model is detecting and leveraging most of signal in the data, it's higher ROI to improve the quality and breadth of data than to increase the algorithmic complexity of the model.</li> 
-</ul>
+As a corollary, once a model is detecting and leveraging most of signal in the data, improving the quality and breadth of the data will result in higher ROI than increasing the algorithmic complexity of the model.
  
 <h3>Choose the right level for your first principles.</h3>
 <ul>
