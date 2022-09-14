@@ -74,7 +74,7 @@ In summary: it is often more efficient to manually encode expert knowledge in a 
  <li>Even after you become a domain expert, don't get cocky thinking you know everything there is to know within the domain. The amount of you know is still orders of magnitude less than the amount you don't, and the distribution of domain expertise among domain experts has a fat tail.</li>
  </ul>
 
-<h2>The Development</h2>
+<h2>The Development Process</h2>
  
 <h4><b>Leverage your intuition and emotions.</b></h4>
 <ul>
