@@ -16,7 +16,6 @@ A model's value is measured by how well it solves a problem. To solve a problem,
 The ability to solve a problem is a combination of domain knowledge and technical expertise -- domain knowledge to envision a feasible solution, and technical expertise to make that vision a reality.
 
 Persistence has a more emotional root, e.g. doing something you love or fixing something that angers you. The greater the variety and strength of emotional connection you have with a problem, the easier it will be to stay motivated and persistent.
-
  
 <h3>Start with the problem, not the model.</h3>
 
@@ -33,17 +32,26 @@ As it turns out, models that are intentionally designed to solve solve specific 
 
 It's possible to convince yourself that you're starting with the problem, when you're actually not.
 
-If you don't have hands-on experience with all facets of the problem, then you'll probably make lots of assumptions that are plausible but false, which means you won't actually be solving the problem that you think you're solving. Your model might work in theory, but probably not in reality.
+If you don't have hands-on experience with all facets of the problem, then you'll probably make lots of assumptions that are plausible but false. If this is the case, then you won't actually be solving the problem that you think you're solving.
 
-To avoid this, you need to gather hands-on experience and domain knowledge before beginning the modeling process.
+This leads to the ultimate deathtrap: a model that works in theory but not in reality. A model that despite being elegant, intuitive, and the product of countless hours of work, is ultimately worthless because it doesn't solve the problem that it needs to solve.
 
-(As a corollary, avoid domains where you're averse to doing things manually and getting your hands dirty.)
+Below are two strategies that you can use to avoid this tragic fate.
+
+<ol>
+<li>Gather hands-on experience and domain knowledge before beginning the modeling process. (As a corollary, avoid domains where you're averse to doing things manually and getting your hands dirty.)</li>
+<li>As soon as you think your model solves the problem well enough to be useful, test it out in the real world to ensure that reality matches up with your expectations. Don't spend time refactoring and optimizing until you know it's worthwhile to do so.</li>
+</ol>
 
 
 <h3>Your model can only be as good as its underlying data.</h3>
 
+The saying "crap in, crap out" is cliche for a reason. If you want your model to do what a human expert does, then it needs to have access to all the information that the human expert uses during their decision-making process (and this information needs to be correct).
+
+As a corollary, once a model is detecting and leveraging most of signal in the data, it's higher ROI to improve the quality and breadth of data than to increase the algorithmic complexity of the model.
+
 <ul>
-  <li>If you want your model to do what an expert does, it needs to have all the information that an expert uses during their decision-making process. (Heard this one from Jason Roberts, who heard it from Peter Stone.)</li>
+  <li></li>
   <li>Once a model is detecting and leveraging most of signal in the data, it's higher ROI to improve the quality and breadth of data than to increase the algorithmic complexity of the model.</li> 
 </ul>
  
