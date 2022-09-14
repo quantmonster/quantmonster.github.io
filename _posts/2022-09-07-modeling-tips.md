@@ -4,10 +4,6 @@ title:  "(In Progress) Tips for Developing Valuable Models"
 excerpt: "Stuff you don't find in math textbooks."
 ---
 
-<style type="text/css">
-  h4 { font-weight: bold; }
-</style>
-
 <h2>The Problem</h2>
 
 <h4><b>Focus on solving a problem that fits you.</b></h4>
@@ -23,7 +19,7 @@ The ability to solve a problem is a combination of domain knowledge and technica
 
 Persistence has a more emotional root, e.g. doing something you love or fixing something that angers you. The greater the variety and strength of emotional connection you have with a problem, the easier it will be to stay motivated and persistent.
  
-<h4>Start with the problem, not the model.</h4>
+<h4><b>Start with the problem, not the model.</b></h4>
 
 A model is worthless if it does not solve the desired problem. Even if it's elegant and theoretically interesting -- if it doesn't actually solve a problem, then it's worthless.
 
@@ -34,7 +30,7 @@ Of course, this approach may lead to convoluted models. That's intentional. If y
 As it turns out, models that are intentionally designed to solve solve specific real problems usually turn out to be theoretically interesting and fun to build. You can have a model that is both intellectually stimulating and a valuable solution to a real problem. But you need to start by solving a real problem. Real solutions naturally generate interesting theory, but it doesn't work the other way around.
 
 
-<h4>Make sure you understand the problem in reality, not just in theory.</h4>
+<h4><b>Make sure you understand the problem in reality, not just in theory.</b></h4>
 
 It's possible to convince yourself that you're starting with the problem, when you're actually not.
 
@@ -51,13 +47,13 @@ Below are two strategies that you can use to avoid this tragic fate.
 
 <h2>The Setup</h2>
 
-<h4>Your model can only be as good as its underlying data.</h4>
+<h4><b>Your model can only be as good as its underlying data.</b></h4>
 
 The saying "crap in, crap out" is cliche for a reason. If you want your model to do what a human expert does, then it needs to have access to all the information that the human expert uses during their decision-making process (and this information needs to be correct).
 
 As a corollary, once a model is detecting and leveraging most of signal in the data, improving the quality and breadth of the data will result in higher ROI than increasing the algorithmic complexity of the model.
  
-<h4>Don't be afraid to encode expert knowledge manually.</h4>
+<h4><b>Don't be afraid to encode expert knowledge manually.</b></h4>
 
 It's easy to rationalize that manually encoding expert knowledge takes too long, so your model must learn everything on its own from scratch.
 
@@ -70,7 +66,7 @@ If you can manually encode the expert knowledge you need in a matter of weeks or
 In summary: it is often more efficient to manually encode expert knowledge in a structured data set and build a model on top of that, than to attempt to build a model that learns everything from scratch.
 
 
-<h4>Get specific to your domain.</h4>
+<h4><b>Get specific to your domain.</b></h4>
 <ul>
  <li>In every domain there are insights that a domain expert would know from experience, that would likely evade a general-purpose algorithm. (This is not surprising, because general-purpose algorithms get their power of generality by reducing assumptions and focusing on the aspects of a problem that are conserved across domains.)</li>
  <li>By introducing domain-specific "shortcut" assumptions and considering relevant aspects of the problem that would otherwise be ignored, you can leverage your domain knowledge as a major advantage against competitors who do not have as much domain expertise.</li>
@@ -80,7 +76,7 @@ In summary: it is often more efficient to manually encode expert knowledge in a 
 
 <h2>The Development</h2>
  
-<h4>Leverage your intuition and emotions.</h4>
+<h4><b>Leverage your intuition and emotions.</b></h4>
 <ul>
   <li>Routinely step back from the theory and implementation and observe your model's behavior. It needs to make sense intuitively and "feel" right emotionally. (If you've spent enough time building domain knowledge by doing things manually and getting your hands dirty, then you should have emotional reactions to the decisions the model makes.)</li>
   <li>The best machine learning model you have is your brain, and your brain only interfaces with interpretable computer models.</li>
@@ -88,7 +84,7 @@ In summary: it is often more efficient to manually encode expert knowledge in a 
   <li>Emotion is an essential part of the feedback loop for improving a model: 1) inspect the model's output, 2) produce a negative emotional reaction, 3) introspect your emotions to identify the root cause of the negativity, 4) describe what the output needs to look like order to produce a positive emotional reaction, 5) tweak the model to give the desired output, 6) return to step 1.</li>
 </ul>
   
-<h4>Make your model robust and reliable.</h4>
+<h4><b>Make your model robust and reliable.</b></h4>
 <ul>
  <li>Make your model robust to data issues (but make sure it logs a warning whenever it comes across a data issue). Data issues will happen from time to time, especially if the model is being developed in parallel with the underlying data infrastructure. The model can't just fall over and refuse to work whenever data issues happen.</li>
  <li>The more complex your model is, the more internal validation it needs. Depending on the severity and veracity of a failed sanity check, the model should either log a warning or throw an error, halt, and alert you.</li>
@@ -97,20 +93,20 @@ In summary: it is often more efficient to manually encode expert knowledge in a 
  <li>It's often worth investing some time to make your logs highly informative yet easy to skim. (Indents and empty line dividers are your friends.) Tuning and debugging go much faster if you can see the forest for the trees.</li>
 </ul>
 
-<h4>Refactor when appropriate.</h4>
+<h4><b>Refactor when appropriate.</b></h4>
 <ul>
  <li>One goal of refactoring is to save you time in the long run. On one hand, you shouldn't refactor until you're reasonably confident that what you refactor is a permanent and essential part of the solution. On the other hand, you shouldn't wait so long to refactor that you experiencing lots of friction when trying to extend your solution.</li>
  <li>Another goal of refactoring is to enable other people to understand and modify your code. If you're going to hand off a piece of code to someone, then you should first refactor until it's reasonably clean.</li>
 </ul>
  
-<h4>Never stall out. (Corollary: Control the data-generating process.)</h4>
+<h4><b>Never stall out. (Corollary: Control the data-generating process.)</b></h4>
 <ul>
  <li>Keep forward momentum. If a model is not producing a desired behavior and you're out of ideas, then temporarily hard-code the desired behavior as an "intervention," move on, and periodically revisit the intervention to try out more elegant ideas.</li>
  <li>If you don't control the data-generating process, then it becomes vastly more difficult (and sometimes impossible) to resolve data issues. You either need to own the data-generating process yourself or have trust, a good relationship, an open line of communication with the person who does.</li>
  <li>Don't embark on a project unless you have some solid ideas on how to approach it. If your desired outcome feels magical, then you probably don't (yet) have enough technical knowledge to achieve it.</li>
 </ul>
 
-<h4>Focus on high-ROI tasks.</h4>
+<h4><b>Focus on high-ROI tasks.</b></h4>
 <ul>
   <li>While it's good to keep developing technical expertise, returns are diminishing. However, you can always become orders of magnitude more productive by working on high-ROI tasks as opposed to low-ROI tasks.</li>
   <li>Even when you're working on a high-ROI task, you should periodically re-evaluate to make sure it's still high-ROI. Sometimes the act of working on a task reveals new information that indicates a more efficient way to accomplish the same goal.</li>
@@ -121,7 +117,7 @@ In summary: it is often more efficient to manually encode expert knowledge in a 
 
 <h2>The UI</h2>
 
-<h4>If the goal is to "wow" users, then the model must clearly demonstrate its sophistication.</h4>
+<h4><b>If the goal is to "wow" users, then the model must clearly demonstrate its sophistication.</b></h4>
 <ul>
   <li>Valuable models often work so elegantly and efficiently that they make extraordinarily difficult tasks seem easy. If the model does not demonstrate its sophistication, then users may not experience a "wow" moment, and they may even think that the model is wrong (since the complexity of the task is far beyond their perceived complexity of the model).</li>
   <li>To appreciate the sophistication of a model, users need to understand and be able to personally verify the what the model is doing at a high level. Consequently, it's necessary for the model to be very interpretable at a high level.</li>
