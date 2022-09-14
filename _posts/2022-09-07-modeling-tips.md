@@ -4,7 +4,9 @@ title:  "(In Progress) Tips for Developing Valuable Models"
 excerpt: "Stuff you don't find in math textbooks."
 ---
 
-<h3>Focus on solving a problem that fits you.</h3>
+<h2>1. The Problem</h2>
+
+<h3>1.1 Focus on solving a problem that fits you.</h3>
 
 A model's value is measured by how well it solves a problem. To solve a problem, you need
 
@@ -17,7 +19,7 @@ The ability to solve a problem is a combination of domain knowledge and technica
 
 Persistence has a more emotional root, e.g. doing something you love or fixing something that angers you. The greater the variety and strength of emotional connection you have with a problem, the easier it will be to stay motivated and persistent.
  
-<h3>Start with the problem, not the model.</h3>
+<h3>1.2 Start with the problem, not the model.</h3>
 
 A model is worthless if it does not solve the desired problem. Even if it's elegant and theoretically interesting -- if it doesn't actually solve a problem, then it's worthless.
 
@@ -28,7 +30,7 @@ Of course, this approach may lead to convoluted models. That's intentional. If y
 As it turns out, models that are intentionally designed to solve solve specific real problems usually turn out to be theoretically interesting and fun to build. You can have a model that is both intellectually stimulating and a valuable solution to a real problem. But you need to start by solving a real problem. Real solutions naturally generate interesting theory, but it doesn't work the other way around.
 
 
-<h3>Make sure you understand the problem in reality, not just in theory.</h3>
+<h3>1.3 Make sure you understand the problem in reality, not just in theory.</h3>
 
 It's possible to convince yourself that you're starting with the problem, when you're actually not.
 
@@ -43,19 +45,28 @@ Below are two strategies that you can use to avoid this tragic fate.
 <li>As soon as you think your model solves the problem well enough to be useful, test it out in the real world to ensure that reality matches up with your expectations. Don't spend time refactoring and optimizing until you know it's worthwhile to do so.</li>
 </ol>
 
+<h2>2. The Data</h2>
 
-<h3>Your model can only be as good as its underlying data.</h3>
+<h3>2.1 Your model can only be as good as its underlying data.</h3>
 
 The saying "crap in, crap out" is cliche for a reason. If you want your model to do what a human expert does, then it needs to have access to all the information that the human expert uses during their decision-making process (and this information needs to be correct).
 
 As a corollary, once a model is detecting and leveraging most of signal in the data, improving the quality and breadth of the data will result in higher ROI than increasing the algorithmic complexity of the model.
  
-<h3>Choose the right level for your first principles.</h3>
-<ul>
- <li>It is often more efficient to manually encode expert knowledge in a structured data set and build a model on top of that, than to attempt to build a model that does everything from scratch.</li>
- <li>It's easy to rationalize that manually encoding expert knowledge takes too long. But if spending several weeks (or even months) creating a structured data set by hand will allow your model to accomplish important goals that it couldn't otherwise, then it's totally worth doing.</li>
- <li>Plus, when you have to manually encode expert knowledge, it means that you're creating highly relevant data that isn't publicly accessible. This gives you a major edge over any competitor who is not a domain expert or is unwilling to endure tedium for the sake of the model.</li>
-</ul>
+<h3>2.2 Don't be afraid to encode expert knowledge manually.</h3>
+
+It's easy to rationalize that manually encoding expert knowledge takes too long, so your model must learn everything on its own from scratch.
+
+In these situations, it's important to ask yourself: "If my model manages to learn everything from scratch, would that be groundbreaking enough to publish in a high-impact journal?"
+
+If the answer is yes, and you're not actually an academic whose very definition of success is to publish models that learn from scratch, then stop right there. Research projects like this take many months if not years to fully pan out, and there is no guarantee of success.
+
+If you can manually encode the expert knowledge you need in a matter of weeks or months, then it's a no-brainer that you should do that instead. It may feel tedious, but you'll lower your risk of failure while simultaneously increasing your development velocity.
+
+In summary: it is often more efficient to manually encode expert knowledge in a structured data set and build a model on top of that, than to attempt to build a model that learns everything from scratch.
+
+<hr>
+
 
 <h3>Get specific to your domain.</h3>
 <ul>
