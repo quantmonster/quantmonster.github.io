@@ -10,7 +10,7 @@ excerpt: "Stuff you don't find in math textbooks."
 
 <h2>The Problem</h2>
 
-<h4>Focus on solving a problem that fits you.</h4>
+<h4><b>Focus on solving a problem that fits you.</b></h4>
 
 A model's value is measured by how well it solves a problem. To solve a problem, you need
 
