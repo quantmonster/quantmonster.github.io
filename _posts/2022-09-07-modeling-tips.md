@@ -14,6 +14,12 @@ excerpt: "Stuff you don't find in math textbooks."
 <li>Your model can only be as good as its underlying data.</li>
 <li>Don't be afraid to encode domain knowledge manually.</li>
 <li>Leverage your emotions.</li>
+<li>Generate human-readable justifications and logs.</li>
+<li>Validate the model's perceptions and decisions.</li>
+<li>Don't get derailed by minor data issues.</li>
+
+... (this is out-of-date)
+
 </ol>
 -->
 
@@ -102,22 +108,13 @@ Emotion is an essential part of the following feedback loop for improving a mode
 <li>Return to step 1.</li>
 </ol>
 
-  
-<h4><b>Make your model robust and reliable.</b></h4>
+<h4><b>Generate human-readable justifications and logs.</b></h4>
+
 <ul>
- <li>Make your model robust to data issues (but make sure it logs a warning whenever it comes across a data issue). Data issues will happen from time to time, especially if the model is being developed in parallel with the underlying data infrastructure. The model can't just fall over and refuse to work whenever data issues happen.</li>
- <li>The more complex your model is, the more internal validation it needs. Depending on the severity and veracity of a failed sanity check, the model should either log a warning or throw an error, halt, and alert you.</li>
- <li>Unit tests are ideal, but if your model exists within a very complex system, then your unit tests won't cover all the possible edge cases no matter how hard you try. So internal and external validation become very important. (Internal validation = validating internal perceptions and decisions of model as it runs on real data in real time; external validation = validating that the model's sequence of output decisions over time on recent real data.)</li>
  <li>To gain confidence in your model and speed up the debugging process, it helps to generate human-readable justifications for why your model makes decisions it does.</li>
  <li>It's often worth investing some time to make your logs highly informative yet easy to skim. (Indents and empty line dividers are your friends.) Tuning and debugging go much faster if you can see the forest for the trees.</li>
 </ul>
 
-<h4><b>Refactor when appropriate.</b></h4>
-<ul>
- <li>One goal of refactoring is to save you time in the long run. On one hand, you shouldn't refactor until you're reasonably confident that what you refactor is a permanent and essential part of the solution. On the other hand, you shouldn't wait so long to refactor that you experiencing lots of friction when trying to extend your solution.</li>
- <li>Another goal of refactoring is to enable other people to understand and modify your code. If you're going to hand off a piece of code to someone, then you should first refactor until it's reasonably clean.</li>
-</ul>
- 
 <h4><b>Never stall out. (Corollary: Control the data-generating process.)</b></h4>
 <ul>
  <li>Keep forward momentum. If a model is not producing a desired behavior and you're out of ideas, then temporarily hard-code the desired behavior as an "intervention," move on, and periodically revisit the intervention to try out more elegant ideas.</li>
@@ -133,6 +130,38 @@ Emotion is an essential part of the following feedback loop for improving a mode
   <li>Maintain a priority queue, not a to-do list. You'll never complete everything in your priority queue since the rate at which items are added will outnumber the rate at which items are completed. Therefore, it's essential to work on highest-priority items first.</li>
   <li>Strike a balance between shutting out distractions versus allowing yourself to think creatively about the future, so that you can keep a steady supply of high-ROI tasks.</li>
 </ul>
+
+
+<h2>Stabilizing the Model</h2>
+  
+<h4><b>Validate the model's perceptions and decisions.</b></h4>
+
+If your model exists within a very complex system, then no matter how hard you try, unit tests won't cover all the possible edge cases. So, validation becomes very important.
+
+There are two general categories of validation that I've found useful:
+
+<ul>
+<li><i>Immediate validation:</i> validating the model's internal perceptions and decisions at the moment that they occur.</li>
+<li><i>Retrospective validation:</i> validating the model's sequence of output decisions over time to make sure that it's achieving the desired long-term behavior.</li>
+</ul>
+
+The more complex your model is, the more validation it needs. Depending on the severity and veracity of a failed validation check, the model should either log a warning or throw an error, halt, and alert you.
+
+
+<h4><b>Don't get derailed by minor data issues.</b></h4>
+
+Minor data issues will happen from time to time, especially if the model is being developed in parallel with the underlying data infrastructure.
+
+But if the model has end-users, the it can't just fall over and refuse to work whenever a minor data issue occurs. If you as a human can infer what to do in the event of a minor data issue, then that same logic needs to be built into the model.
+
+That being said, even if the model manages to handle a minor data issue, it should still log a warning. It's a good idea to sort out those issues eventually (or at least be aware of them). It's just a really, really bad idea to make your end-users wait for you to do so.
+
+<h4><b>Refactor when appropriate.</b></h4>
+<ul>
+ <li>One goal of refactoring is to save you time in the long run. On one hand, you shouldn't refactor until you're reasonably confident that what you refactor is a permanent and essential part of the solution. On the other hand, you shouldn't wait so long to refactor that you experiencing lots of friction when trying to extend your solution.</li>
+ <li>Another goal of refactoring is to enable other people to understand and modify your code. If you're going to hand off a piece of code to someone, then you should first refactor until it's reasonably clean.</li>
+</ul>
+
 
 <h2>The UI</h2>
 
