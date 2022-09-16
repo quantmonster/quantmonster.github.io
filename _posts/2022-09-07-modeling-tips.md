@@ -49,7 +49,7 @@ Below are two strategies that you can use to avoid this tragic fate.
 
 <h4><b>Your model can only be as good as its underlying data.</b></h4>
 
-The saying "crap in, crap out" is cliche for a reason. If you want your model to do what a human expert does, then it needs to have access to all the information that the human expert uses during their decision-making process (and this information needs to be correct).
+The saying "crap in, crap out" is cliche for a reason. If you want your model to do what a human expert does, then it needs to have access to all the information that the human uses during their decision-making process (and this information needs to be correct). [1]
 
 As a corollary, once a model is detecting and leveraging most of signal in the data, improving the quality and breadth of the data will result in higher ROI than increasing the algorithmic complexity of the model.
  
@@ -118,3 +118,7 @@ That being said, it would also clearly be a mistake to spend time encoding domai
   <li>Low-level implementation details should remain hidden since they do not matter to the user (and are often the "secret sauce" behind the model).</li>
   <li>Visualizations and animations are ideal because they give the user a clear picture of what is going on at a high level and can demonstrate complexity in an aesthetically pleasing way without overwhelming the user.</li>
 </ul>
+
+<h2>Notes</h2>
+
+[1] I heard this phrasing (minus the parenthetical) from Jason Roberts, who recalls hearing it from Peter Stone in the context of soccer-playing robots.
