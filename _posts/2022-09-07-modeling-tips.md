@@ -85,7 +85,7 @@ That being said, it would also clearly be a mistake to spend time encoding domai
  
 <h4><b>Leverage your emotions.</b></h4>
 
-Quants are often portrayed as unfeeling robots who medalled in the International Math Olympiad in high school and haven't done anything but compute since. However, even if they don't show it outwardly, an ideal quant will experience lots of emotions during the modeling process and leverage them to improve the model.
+Quants are often portrayed as unfeeling robots who medalled in the International Math Olympiad in high school and haven't thought about anything but numbers since. However, even if they don't show it outwardly, an ideal quant will experience lots of emotions during the modeling process and leverage them to improve the model.
 
 The idea is to routinely step back from the theory and implementation and observe your model's behavior. It needs to not only make sense intuitively but also "feel" right emotionally. (If you've spent enough time building domain knowledge by doing things manually and getting your hands dirty, then you should have emotional reactions to the decisions the model makes.)
 
