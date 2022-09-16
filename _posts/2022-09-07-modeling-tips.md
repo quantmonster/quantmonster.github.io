@@ -163,7 +163,7 @@ That being said, even if the model manages to handle a minor data issue, it shou
 </ul>
 
 
-<h2>The UI</h2>
+<h2>Showcasing the Model</h2>
 
 <h4><b>If the goal is to "wow" users, then the model must clearly demonstrate its sophistication.</b></h4>
 <ul>
