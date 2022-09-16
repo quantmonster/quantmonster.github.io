@@ -45,7 +45,7 @@ Below are two strategies that you can use to avoid this tragic fate.
 <li>As soon as you think your model solves the problem well enough to be useful, test it out in the real world to ensure that reality matches up with your expectations. Don't spend time refactoring and optimizing until you know it's worthwhile to do so.</li>
 </ol>
 
-<h2>The Setup</h2>
+<h2>The Data</h2>
 
 <h4><b>Your model can only be as good as its underlying data.</b></h4>
 
@@ -53,26 +53,20 @@ The saying "crap in, crap out" is cliche for a reason. If you want your model to
 
 As a corollary, once a model is detecting and leveraging most of signal in the data, improving the quality and breadth of the data will result in higher ROI than increasing the algorithmic complexity of the model.
  
-<h4><b>Don't be afraid to encode expert knowledge manually.</b></h4>
+<h4><b>Don't be afraid to encode domain knowledge manually.</b></h4>
 
-It's easy to rationalize that manually encoding expert knowledge takes too long, so your model must learn everything on its own from scratch.
+It's easy to rationalize that manually encoding domain knowledge takes too long, so your model must learn everything on its own from scratch.
 
 In these situations, it's important to ask yourself: "If my model manages to learn everything from scratch, would that be groundbreaking enough to publish in a high-impact journal?"
 
 If the answer is yes, and you're not actually an academic whose very definition of success is to publish models that learn from scratch, then stop right there. Research projects like this take many months if not years to fully pan out, and there is no guarantee of success.
 
-If you can manually encode the expert knowledge you need in a matter of weeks or months, then it's a no-brainer that you should do that instead. It may feel tedious, but you'll lower your risk of failure while simultaneously increasing your development velocity.
+If you can manually encode the domain knowledge you need in a matter of weeks or months, then it's a no-brainer that you should do that instead. It may feel tedious, but you'll lower your risk of failure while simultaneously increasing your development velocity.
 
-In summary: it is often more efficient to manually encode expert knowledge in a structured data set and build a model on top of that, than to attempt to build a model that learns everything from scratch.
+At its best, manually encoded domain knowledge can allow you to bypass insurmountably difficult problems, and you can leverage this as a major advantage against competitors who do not have as much domain expertise as you do.
 
+That being said, it would also clearly be a mistake to spend time encoding domain knowledge that your model can easily infer on its own. Only encode domain knowledge manually when doing so allows your model to bypass a publication-caliber problem.
 
-<h4><b>Get specific to your domain.</b></h4>
-<ul>
- <li>In every domain there are insights that a domain expert would know from experience, that would likely evade a general-purpose algorithm. (This is not surprising, because general-purpose algorithms get their power of generality by reducing assumptions and focusing on the aspects of a problem that are conserved across domains.)</li>
- <li>By introducing domain-specific "shortcut" assumptions and considering relevant aspects of the problem that would otherwise be ignored, you can leverage your domain knowledge as a major advantage against competitors who do not have as much domain expertise.</li>
- <li>Domain expertise is to hard work as algorithmic aptitude is to talent. You can't increase your algorithmic aptitude by very much, but you can vastly increase your domain expertise by leaving the world of abstraction and getting concrete hands-on experience.</li>
- <li>Even after you become a domain expert, don't get cocky thinking you know everything there is to know within the domain. The amount of you know is still orders of magnitude less than the amount you don't, and the distribution of domain expertise among domain experts has a fat tail.</li>
- </ul>
 
 <h2>The Development Process</h2>
  
