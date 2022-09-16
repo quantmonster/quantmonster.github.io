@@ -4,6 +4,18 @@ title:  "(In Progress) Tips for Developing Valuable Models"
 excerpt: "Stuff you don't find in math textbooks."
 ---
 
+<!--
+<h2>At A Glance</h2>
+
+<ol>
+<li>Focus on solving a problem that fits you.</li>
+<li>Start with the problem, not the model.</li>
+<li>Make sure you understand the problem in reality, not just in theory.</li>
+<li>Your model can only be as good as its underlying data.</li>
+<li>Don't be afraid to encode domain knowledge manually.</li>
+</ol>
+-->
+
 <h2>The Problem</h2>
 
 <h4><b>Focus on solving a problem that fits you.</b></h4>
@@ -121,4 +133,4 @@ That being said, it would also clearly be a mistake to spend time encoding domai
 
 <h2>Notes</h2>
 
-[1] I heard this phrasing (minus the parenthetical) from Jason Roberts, who recalls hearing it from Peter Stone in the context of soccer-playing robots.
+[1] I heard the phrasing <i>"if you want it to do what a human does, then it needs to have all the information that a human does"</i> from Jason Roberts, who recalls hearing it from Peter Stone in the context of soccer-playing robots.
