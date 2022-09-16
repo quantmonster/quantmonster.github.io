@@ -63,7 +63,7 @@ If the answer is yes, and you're not actually an academic whose very definition 
 
 If you can manually encode the domain knowledge you need in a matter of weeks or months, then it's a no-brainer that you should do that instead. It may feel tedious, but you'll lower your risk of failure while simultaneously increasing your development velocity.
 
-At its best, manually encoded domain knowledge can allow you to bypass insurmountably difficult problems, and you can leverage this as a major advantage against competitors who do not have as much domain expertise as you do.
+At its best, manually encoding domain knowledge can allow you to bypass insurmountably difficult problems, and you can leverage this as a major advantage against competitors who do not have as much domain expertise as you do.
 
 That being said, it would also clearly be a mistake to spend time encoding domain knowledge that your model can easily infer on its own. Only encode domain knowledge manually when doing so allows your model to bypass a publication-caliber problem.
 
