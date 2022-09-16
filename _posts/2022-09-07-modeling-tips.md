@@ -13,6 +13,7 @@ excerpt: "Stuff you don't find in math textbooks."
 <li>Make sure you understand the problem in reality, not just in theory.</li>
 <li>Your model can only be as good as its underlying data.</li>
 <li>Don't be afraid to encode domain knowledge manually.</li>
+<li>Leverage your emotions.</li>
 </ol>
 -->
 
@@ -82,13 +83,23 @@ That being said, it would also clearly be a mistake to spend time encoding domai
 
 <h2>The Development Process</h2>
  
-<h4><b>Leverage your intuition and emotions.</b></h4>
-<ul>
-  <li>Routinely step back from the theory and implementation and observe your model's behavior. It needs to make sense intuitively and "feel" right emotionally. (If you've spent enough time building domain knowledge by doing things manually and getting your hands dirty, then you should have emotional reactions to the decisions the model makes.)</li>
-  <li>The best machine learning model you have is your brain, and your brain only interfaces with interpretable computer models.</li>
-  <li>The more linear and low-dimensional a model is, the easier it is to find good parameters using your intuition alone.</li>
-  <li>Emotion is an essential part of the feedback loop for improving a model: 1) inspect the model's output, 2) produce a negative emotional reaction, 3) introspect your emotions to identify the root cause of the negativity, 4) describe what the output needs to look like order to produce a positive emotional reaction, 5) tweak the model to give the desired output, 6) return to step 1.</li>
-</ul>
+<h4><b>Leverage your emotions.</b></h4>
+
+Quants are often portrayed as unfeeling robots who medalled in the International Math Olympiad in high school and haven't thought about anything but numbers since. However, even if they don't show it outwardly, an ideal quant will experience lots of emotions during the modeling process and leverage them to improve the model.
+
+The idea is to routinely step back from the theory and implementation and observe your model's behavior. It needs to not only make sense intuitively but also "feel" right emotionally. (If you've spent enough time building domain knowledge by doing things manually and getting your hands dirty, then you should have emotional reactions to the decisions the model makes.)
+
+Emotion is an essential part of the following feedback loop for improving a model: 
+
+<ol>
+<li>Inspect the model's output.</li>
+<li>Produce a negative emotional reaction.</li>
+<li>Introspect your emotions to identify the root cause of the negativity.</li>
+<li>Describe what the output needs to look like order to produce a positive emotional reaction.</li>
+<li>Tweak the model to give the desired output.</li>
+<li>Return to step 1.</li>
+</ol>
+
   
 <h4><b>Make your model robust and reliable.</b></h4>
 <ul>
