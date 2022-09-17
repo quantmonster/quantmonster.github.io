@@ -7,19 +7,37 @@ excerpt: "Stuff you don't find in math textbooks."
 <h2>At A Glance</h2>
 
 <ol>
+<b>The Problem</b>
+
 <li>Focus on solving a problem that fits you.</li>
 <li>Start with the problem, not the model.</li>
 <li>Make sure you understand the problem in reality, not just in theory.</li>
+
+<br>
+<b>The Data</b>
+
 <li>Your model can only be as good as its underlying data.</li>
 <li>Don't be afraid to encode domain knowledge manually.</li>
+
+<br>
+<b>The Development Process</b>
+
 <li>Leverage your emotions.</li>
 <li>Make your model justify its own decisions.</li>
 <li>Control the data-generating process.</li>
 <li>Hard-code interventions when necessary.</li>
 <li>Focus on high-ROI tasks.</li>
+
+<br>
+<b>Stabilizing the Model</b>
+
 <li>Validate the model's perceptions and decisions.</li>
 <li>Don't get derailed by minor data issues.</li>
 <li>Refactor when appropriate.</li>
+
+<br>
+<b>Showcasing the Model</b>
+
 <li>If the goal is to "wow" users, then the model must clearly demonstrate its sophistication.</li>
 </ol>
 
