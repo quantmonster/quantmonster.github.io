@@ -29,6 +29,8 @@ A model's value is measured by how well it solves a problem. To solve a problem,
 
 The ability to solve a problem is a combination of domain knowledge and technical expertise -- domain knowledge to envision a feasible solution, and technical expertise to make that vision a reality.
 
+As a rule of thumb, if your desired outcome seems magical, then you probably don't (yet) have the ability to realize it.
+
 Persistence has a more emotional root, e.g. doing something you love or fixing something that angers you. The greater the variety and strength of emotional connection you have with a problem, the easier it will be to stay motivated and persistent.
  
 <h4><b>Start with the problem, not the model.</b></h4>
@@ -134,10 +136,14 @@ When you can quickly skim through rich information about the model's behavior, y
 In other words, high-quality logs can help you understand the model's emergent behavior and link it back to the specific granular details from which it arises.
 
 <h4><b>Hard-code interventions when necessary.</b></h4>
-<ul>
- <li>Keep forward momentum. If a model is not producing a desired behavior and you're out of ideas, then temporarily hard-code the desired behavior as an "intervention," move on, and periodically revisit the intervention to try out more elegant ideas.</li>
- <li>Don't embark on a project unless you have some solid ideas on how to approach it. If your desired outcome feels magical, then you probably don't (yet) have enough technical knowledge to achieve it.</li>
-</ul>
+
+If a model is not producing a desired behavior and you're out of ideas, then
+
+<ol>
+<li>temporarily hard-code the desired behavior as an "intervention,"</li>
+<li>move on, and</li>
+<li>periodically revisit the intervention to try out more elegant ideas.</li>
+</ol>
 
 <h4><b>Focus on high-ROI tasks.</b></h4>
 <ul>
