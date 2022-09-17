@@ -135,7 +135,9 @@ Emotion is an essential part of the following feedback loop for improving a mode
 
 <h4><b>Control the data-generating process.</b></h4>
 
+<ul>
  <li>If you don't control the data-generating process, then it becomes vastly more difficult (and sometimes impossible) to resolve data issues. You either need to own the data-generating process yourself or have trust, a good relationship, an open line of communication with the person who does.</li>
+</ul>
 
 <h4><b>Hard-code interventions when necessary.</b></h4>
 <ul>
