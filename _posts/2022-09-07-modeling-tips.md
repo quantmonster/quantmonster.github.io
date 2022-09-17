@@ -4,7 +4,6 @@ title:  "(In Progress) Tips for Developing Valuable Models"
 excerpt: "Stuff you don't find in math textbooks."
 ---
 
-<!--
 <h2>At A Glance</h2>
 
 <ol>
@@ -14,14 +13,15 @@ excerpt: "Stuff you don't find in math textbooks."
 <li>Your model can only be as good as its underlying data.</li>
 <li>Don't be afraid to encode domain knowledge manually.</li>
 <li>Leverage your emotions.</li>
-<li>Generate human-readable justifications and logs.</li>
+<li>Make your model justify its own decisions.</li>
+<li>Control the data-generating process.</li>
+<li>Hard-code interventions when necessary.</li>
+<li>Focus on high-ROI tasks.</li>
 <li>Validate the model's perceptions and decisions.</li>
 <li>Don't get derailed by minor data issues.</li>
-
-... (this is out-of-date)
-
+<li>Refactor when appropriate.</li>
+<li>If the goal is to "wow" users, then the model must clearly demonstrate its sophistication.</li>
 </ol>
--->
 
 <h2>The Problem</h2>
 
@@ -108,17 +108,20 @@ Emotion is an essential part of the following feedback loop for improving a mode
 <li>Return to step 1.</li>
 </ol>
 
-<h4><b>Generate human-readable justifications and logs.</b></h4>
+<h4><b>Make your model justify its decisions.</b></h4>
 
 <ul>
  <li>To gain confidence in your model and speed up the debugging process, it helps to generate human-readable justifications for why your model makes decisions it does.</li>
- <li>It's often worth investing some time to make your logs highly informative yet easy to skim. (Indents and empty line dividers are your friends.) Tuning and debugging go much faster if you can see the forest for the trees.</li>
+ <li>It's often worth investing some time to make your logs highly informative yet easy to skim. Tuning and debugging go much faster if you can see the forest for the trees.</li>
 </ul>
 
-<h4><b>Never stall out. (Corollary: Control the data-generating process.)</b></h4>
+<h4><b>Control the data-generating process.</b></h4>
+
+ <li>If you don't control the data-generating process, then it becomes vastly more difficult (and sometimes impossible) to resolve data issues. You either need to own the data-generating process yourself or have trust, a good relationship, an open line of communication with the person who does.</li>
+
+<h4><b>Hard-code interventions when necessary.</b></h4>
 <ul>
  <li>Keep forward momentum. If a model is not producing a desired behavior and you're out of ideas, then temporarily hard-code the desired behavior as an "intervention," move on, and periodically revisit the intervention to try out more elegant ideas.</li>
- <li>If you don't control the data-generating process, then it becomes vastly more difficult (and sometimes impossible) to resolve data issues. You either need to own the data-generating process yourself or have trust, a good relationship, an open line of communication with the person who does.</li>
  <li>Don't embark on a project unless you have some solid ideas on how to approach it. If your desired outcome feels magical, then you probably don't (yet) have enough technical knowledge to achieve it.</li>
 </ul>
 
