@@ -10,7 +10,7 @@ excerpt: "Stuff you don't find in math textbooks."
 
 <b>The Data -</b> Your model can only be as good as its underlying data. Don't be afraid to encode domain knowledge manually.
 
-<b>The Development Process -</b> Leverage your emotions. Make your model justify its own decisions. Invest in high-quality logs. Control the data-generating process. Hard-code interventions when necessary. Focus on high-ROI tasks.
+<b>The Development Process -</b> Leverage your emotions. Make your model justify its own decisions. Invest in high-quality logs. Hard-code interventions when necessary. Focus on high-ROI tasks.
 
 <b>Stabilizing the Model -</b> Validate the model's perceptions and decisions. Don't get derailed by minor data issues. Refactor when appropriate.
 
@@ -63,8 +63,13 @@ Below are two strategies that you can use to avoid this tragic fate.
 
 The saying "crap in, crap out" is cliche for a reason. If you want your model to do what a human expert does, then it needs to have access to all the information that the human uses during their decision-making process (and this information needs to be correct). [1]
 
-As a corollary, once a model is detecting and leveraging most of signal in the data, improving the quality and breadth of the data will result in higher ROI than increasing the algorithmic complexity of the model.
- 
+Two corollaries follow:
+
+<ol>
+<li>Once a model is detecting and leveraging most of signal in the data, improving the quality and breadth of the data will result in higher ROI than increasing the algorithmic complexity of the model.</li>
+<li>It's important to control the data-generating process. If you don't, then it becomes vastly more difficult (and sometimes impossible) to resolve data issues. You either need to own the data-generating process yourself or have a good relationship with the person who does.</li>
+</ol>
+
 <h4><b>Don't be afraid to encode domain knowledge manually.</b></h4>
 
 It's easy to rationalize that manually encoding domain knowledge takes too long, so your model must learn everything on its own from scratch.
@@ -127,12 +132,6 @@ When you can quickly skim through rich information about the model's behavior, y
 </ol>
 
 In other words, high-quality logs can help link the "big picture" model behavior to the specific details from which it arises.
-
-<h4><b>Control the data-generating process.</b></h4>
-
-<ul>
- <li>If you don't control the data-generating process, then it becomes vastly more difficult (and sometimes impossible) to resolve data issues. You either need to own the data-generating process yourself or have trust, a good relationship, an open line of communication with the person who does.</li>
-</ul>
 
 <h4><b>Hard-code interventions when necessary.</b></h4>
 <ul>
