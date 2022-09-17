@@ -8,36 +8,37 @@ excerpt: "Stuff you don't find in math textbooks."
 
 <ol>
 <br>
-<b>The Problem</b>
+<b><u>The Problem</u></b>
 
 <li>Focus on solving a problem that fits you.</li>
 <li>Start with the problem, not the model.</li>
 <li>Make sure you understand the problem in reality, not just in theory.</li>
 
 <br>
-<b>The Data</b>
+<b><u>The Data</u></b>
 
 <li>Your model can only be as good as its underlying data.</li>
 <li>Don't be afraid to encode domain knowledge manually.</li>
 
 <br>
-<b>The Development Process</b>
+<b><u>The Development Process</u></b>
 
 <li>Leverage your emotions.</li>
 <li>Make your model justify its own decisions.</li>
+<li>Invest in high-quality logs.</li>
 <li>Control the data-generating process.</li>
 <li>Hard-code interventions when necessary.</li>
 <li>Focus on high-ROI tasks.</li>
 
 <br>
-<b>Stabilizing the Model</b>
+<b><u>Stabilizing the Model</u></b>
 
 <li>Validate the model's perceptions and decisions.</li>
 <li>Don't get derailed by minor data issues.</li>
 <li>Refactor when appropriate.</li>
 
 <br>
-<b>Showcasing the Model</b>
+<b><u>Showcasing the Model</u></b>
 
 <li>If the goal is to "wow" users, then the model must clearly demonstrate its sophistication.</li>
 </ol>
@@ -112,7 +113,7 @@ That being said, it would also clearly be a mistake to spend time encoding domai
 
 Quants are often portrayed as unfeeling robots who medalled in the International Math Olympiad in high school and haven't thought about anything but numbers since.
 
-However, even if they don't show it outwardly, an ideal quant will experience lots of emotions during the modeling process and leverage them to improve the model.
+However, even if they don't show it outwardly, the ideal quant will experience lots of emotions during the modeling process and leverage them to improve the model.
 
 The idea is to routinely step back from the theory and implementation and observe your model's behavior. It needs to not only make sense intuitively but also "feel" right emotionally. (If you've spent enough time building domain knowledge by doing things manually and getting your hands dirty, then you should have emotional reactions to the decisions the model makes.)
 
@@ -129,10 +130,30 @@ Emotion is an essential part of the following feedback loop for improving a mode
 
 <h4><b>Make your model justify its decisions.</b></h4>
 
-<ul>
- <li>To gain confidence in your model and speed up the debugging process, it helps to generate human-readable justifications for why your model makes decisions it does.</li>
- <li>It's often worth investing some time to make your logs highly informative yet easy to skim. Tuning and debugging go much faster if you can see the forest for the trees.</li>
-</ul>
+A properly justified decision will not only contain a precise description of the decision, but also reference key quantities or factors that led to the decision.
+
+If you have your model justify its decisions, you'll benefit in at least three ways:
+
+<ol>
+<li><i>The logic will become more robust.</i> The act of justifying a decision requires you to think through your reasoning very carefully and tighten up any areas of ambiguity.</li>
+<li><i>Debugging will go much faster.</i> The justifications will remind you of the decision logic and provide snapshots of the key quantities right off the bat, without you needing to inspect any code.</li>
+<li><i>It will be easier to react emotionally to the model output.</i> As described in the previous tip, emotion is an essential part of the feedback loop for improving a model.</li>
+</ol>
+
+<h4><b>Invest in high-quality logs.</b></h4>
+
+It's often worth investing some time to make your logs highly informative yet easy to skim.
+
+When you can quickly skim through rich information about the model's behavior, you can quickly
+
+<ol>
+<li>determine whether the behavior looks reasonable or not,</li>
+<li>identify any issues that are occurring,</li>
+<li>identify surroundings that are implicated in the issues, and</li>
+<li>develop hypotheses about what is going on or where you need to investigate further.</li>
+</ol>
+
+In other words, high-quality logs can help link the "big picture" model behavior to the specific details from which it arises.
 
 <h4><b>Control the data-generating process.</b></h4>
 
