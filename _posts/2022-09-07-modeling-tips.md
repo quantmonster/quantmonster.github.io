@@ -131,7 +131,7 @@ When you can quickly skim through rich information about the model's behavior, y
 <li>develop hypotheses about what is going on or where you need to investigate further.</li>
 </ol>
 
-In other words, high-quality logs can help link the "big picture" model behavior to the specific details from which it arises.
+In other words, high-quality logs can help you understand the model's emergent behavior and link it back to the specific granular details from which it arises.
 
 <h4><b>Hard-code interventions when necessary.</b></h4>
 <ul>
