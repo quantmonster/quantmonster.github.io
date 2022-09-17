@@ -6,42 +6,15 @@ excerpt: "Stuff you don't find in math textbooks."
 
 <h2>At A Glance</h2>
 
-<ol>
-<br>
-<b><u>The Problem</u></b>
+<b>The Problem -</b> Focus on solving a problem that fits you. Start with the problem, not the model. Make sure you understand the problem in reality, not just in theory.
 
-<li>Focus on solving a problem that fits you.</li>
-<li>Start with the problem, not the model.</li>
-<li>Make sure you understand the problem in reality, not just in theory.</li>
+<b>The Data -</b> Your model can only be as good as its underlying data. Don't be afraid to encode domain knowledge manually.
 
-<br>
-<b><u>The Data</u></b>
+<b>The Development Process -</b> Leverage your emotions. Make your model justify its own decisions. Invest in high-quality logs. Control the data-generating process. Hard-code interventions when necessary. Focus on high-ROI tasks.
 
-<li>Your model can only be as good as its underlying data.</li>
-<li>Don't be afraid to encode domain knowledge manually.</li>
+<b>Stabilizing the Model -</b> Validate the model's perceptions and decisions. Don't get derailed by minor data issues. Refactor when appropriate.
 
-<br>
-<b><u>The Development Process</u></b>
-
-<li>Leverage your emotions.</li>
-<li>Make your model justify its own decisions.</li>
-<li>Invest in high-quality logs.</li>
-<li>Control the data-generating process.</li>
-<li>Hard-code interventions when necessary.</li>
-<li>Focus on high-ROI tasks.</li>
-
-<br>
-<b><u>Stabilizing the Model</u></b>
-
-<li>Validate the model's perceptions and decisions.</li>
-<li>Don't get derailed by minor data issues.</li>
-<li>Refactor when appropriate.</li>
-
-<br>
-<b><u>Showcasing the Model</u></b>
-
-<li>If the goal is to "wow" users, then the model must clearly demonstrate its sophistication.</li>
-</ol>
+<b>Showcasing the Model -</b> If the goal is to "wow" users, then the model must clearly demonstrate its sophistication.
 
 <h2>The Problem</h2>
 
