@@ -7,6 +7,7 @@ excerpt: "Stuff you don't find in math textbooks."
 <h2>At A Glance</h2>
 
 <ol>
+<br>
 <b>The Problem</b>
 
 <li>Focus on solving a problem that fits you.</li>
