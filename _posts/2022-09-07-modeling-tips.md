@@ -191,21 +191,32 @@ But if the model has end-users, the it can't just fall over and refuse to work w
 That being said, even if the model manages to handle a minor data issue, it should still log a warning. It's a good idea to sort out those issues eventually (or at least be aware of them). It's just a really, really bad idea to make your end-users wait for you to do so.
 
 <h4><b>Refactor when appropriate.</b></h4>
-<ul>
- <li>One goal of refactoring is to save you time in the long run. On one hand, you shouldn't refactor until you're reasonably confident that what you refactor is a permanent and essential part of the solution. On the other hand, you shouldn't wait so long to refactor that you experiencing lots of friction when trying to extend your solution.</li>
- <li>Another goal of refactoring is to enable other people to understand and modify your code. If you're going to hand off a piece of code to someone, then you should first refactor until it's reasonably clean.</li>
-</ul>
+
+The goal of refactoring is to save time in the long run. In return for paying off significant "technical debt" now, you can reduce the amount of "technical interest" you have to pay on your time going forward.
+
+Like most things in life, refactoring is most effective when enjoyed in moderation. Significant drawbacks occur when you spend too little or too much time refactoring.
+
+On one hand, you shouldn't refactor until you're reasonably confident that what you refactor is a permanent and essential part of the model. Extending the debt analogy, if you have a loan that has a significant chance of being waived in the near future, then you're just throwing away money if you pay it off in full beforehand.
+
+(Note that while it's not so common for loans to get waived, it's very common to abort model features if they turn out not to be so useful in practice.) 
+
+On the other hand, you shouldn't wait so long to refactor that you experience unreasonable amounts of friction when trying to extend your model. Refactoring sets the concrete in your model, giving you a solid base upon which to build more layers.
+
+(But by the same token, it's also counterproductive to set the concrete too early before getting the base right.)
 
 
 <h2>Showcasing the Model</h2>
 
 <h4><b>If the goal is to "wow" users, then the model must clearly demonstrate its sophistication.</b></h4>
-<ul>
-  <li>Valuable models often work so elegantly and efficiently that they make extraordinarily difficult tasks seem easy. If the model does not demonstrate its sophistication, then users may not experience a "wow" moment, and they may even think that the model is wrong (since the complexity of the task is far beyond their perceived complexity of the model).</li>
-  <li>To appreciate the sophistication of a model, users need to understand and be able to personally verify the what the model is doing at a high level. Consequently, it's necessary for the model to be very interpretable at a high level.</li>
-  <li>Low-level implementation details should remain hidden since they do not matter to the user (and are often the "secret sauce" behind the model).</li>
-  <li>Visualizations and animations are ideal because they give the user a clear picture of what is going on at a high level and can demonstrate complexity in an aesthetically pleasing way without overwhelming the user.</li>
-</ul>
+
+Valuable models often work so elegantly and efficiently that they make extraordinarily difficult tasks seem easy.
+
+If the model does not demonstrate its sophistication, then users may not experience a "wow" moment. Even worse, if the complexity of the task is far beyond what the user perceives to be the complexity of the model, then the user may just flat-out assume that the model is wrong.
+
+To appreciate the sophistication of a model, users need to understand and be able to personally verify the what the model is doing at a high level.
+
+Visualizations and animations are ideal because they give the user a clear picture of what is going on at a high level and can demonstrate complexity in an aesthetically pleasing way without overwhelming the user.
+
 
 <h2>Notes</h2>
 
