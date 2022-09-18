@@ -146,13 +146,24 @@ If a model is not producing a desired behavior and you're out of ideas, then
 </ol>
 
 <h4><b>Focus on high-ROI tasks.</b></h4>
-<ul>
-  <li>While it's good to keep developing technical expertise, returns are diminishing. However, you can always become orders of magnitude more productive by working on high-ROI tasks as opposed to low-ROI tasks.</li>
-  <li>Even when you're working on a high-ROI task, you should periodically re-evaluate to make sure it's still high-ROI. Sometimes the act of working on a task reveals new information that indicates a more efficient way to accomplish the same goal.</li>
-  <li>Know when to move on. If the completion of a task is measured on a scale from 0% (no work done) to 50% (low-quality solution) to 100% (absolute perfection), the ROI is often concentrated in the first 80%.</li>
-  <li>Maintain a priority queue, not a to-do list. You'll never complete everything in your priority queue since the rate at which items are added will outnumber the rate at which items are completed. Therefore, it's essential to work on highest-priority items first.</li>
-  <li>Strike a balance between shutting out distractions versus allowing yourself to think creatively about the future, so that you can keep a steady supply of high-ROI tasks.</li>
+
+While it's good to keep leveling up your technical skills, there comes a point when returns are diminishing. You know enough to get tasks done within a reasonably short time frame, and you're getting close to the lower limit of how long the tasks could conceivably take.
+
+However, even when you hit this point of diminishing returns, you can still become orders of magnitude more productive by working on high-ROI tasks as opposed to low-ROI tasks. This is especially true if new tasks are coming in faster than you can complete them.
+
+Note that even when you're working on a high-ROI task, you should periodically re-evaluate to make sure it's still high-ROI. Sometimes the act of working on a task reveals new information that indicates a more efficient way to accomplish the same goal.
+
+Additionally, it's important to know when to consider a task completed and move on to the next one. In my experience, if the completion of a task is measured on the scale
+
+<ul style="list-style-type:none;">
+<li>0% = no work done</li>
+<li>50% = low-quality solution</li>
+<li>100% = absolute perfection,</li>
 </ul>
+
+the ROI starts falling off around 80%.
+
+Finally, while you can get a lot of stuff done by shutting out distractions and grinding through tasks, don't forget to set aside time to think creatively about the future so that you can keep a steady supply of high-ROI tasks.
 
 
 <h2>Stabilizing the Model</h2>
