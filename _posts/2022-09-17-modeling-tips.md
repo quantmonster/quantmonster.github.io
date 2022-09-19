@@ -212,13 +212,9 @@ The goal of refactoring is to save time in the long run. In return for paying of
 
 Like most things in life, refactoring is most effective when enjoyed in moderation. Significant drawbacks occur when you spend too little or too much time refactoring.
 
-On one hand, you shouldn't refactor until you're reasonably confident that what you refactor is a permanent and essential part of the model. Extending the debt analogy, if you have a loan that has a significant chance of being waived in the near future, then you're just throwing away money if you pay it off in full beforehand.
+On one hand, you shouldn't refactor until you're reasonably confident that what you refactor is a permanent and essential part of the model. Extending the debt analogy, if you have a loan that has a significant chance of being waived in the near future, then you're just throwing away money if you pay it off in full beforehand. (Note that while it's not so common for loans to get waived, it's very common to abort model features if they turn out not to be so useful in practice.) 
 
-(Note that while it's not so common for loans to get waived, it's very common to abort model features if they turn out not to be so useful in practice.) 
-
-On the other hand, you shouldn't wait so long to refactor that you experience unreasonable amounts of friction when trying to extend your model. Refactoring sets the concrete in your model, giving you a solid base upon which to build more layers.
-
-(But by the same token, it's also counterproductive to set the concrete too early before getting the base right.)
+On the other hand, you shouldn't wait so long to refactor that you experience unreasonable amounts of friction when trying to extend your model. Refactoring sets the concrete in your model, giving you a solid base upon which to build more layers. (But by the same token, it's also counterproductive to set the concrete too early before getting the base right.)
 
 
 <h2>Showcasing the Model</h2>
