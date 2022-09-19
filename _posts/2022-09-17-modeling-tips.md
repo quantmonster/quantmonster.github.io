@@ -176,6 +176,8 @@ Finally, while you can get a lot of stuff done by shutting out distractions and 
 
 If your model exists within a very complex system, then no matter how hard you try, unit tests won't cover all the possible edge cases. So, validation becomes very important.
 
+The more complex your model is, the more validation it needs. Depending on the severity and veracity of a failed validation check, the model should either log a warning or throw an error, halt, and alert you.
+
 There are two general categories of validation that I've found to be useful:
 
 <ul>
@@ -183,7 +185,17 @@ There are two general categories of validation that I've found to be useful:
 <li><i>Retrospective validation:</i> validating the model's sequence of output decisions over time to make sure that it's achieving the desired long-term behavior.</li>
 </ul>
 
-The more complex your model is, the more validation it needs. Depending on the severity and veracity of a failed validation check, the model should either log a warning or throw an error, halt, and alert you.
+An easy way to get started with immediate validation is to look for "if, else if" statements that don't have a final "else". Sometimes the reason for no final "else" is that you're assuming one of the "ifs" will execute. In these cases, it's a good idea to add a final "else" that will either throw an error or log a warning as appropriate (since you're not supposed to get there).
+
+Another useful immediate validation is to check that your quantities are within a desired range after you generate them and before you use them elsewhere. (Though if the model is compute-intensive, then it's a good idea to have a flag that turns off these checks in the inner loop, so that you don't slow down your production model.)
+
+Likewise, an easy way to get started with retrospective validation is to simulate the environment that model is meant to exist within -- for example, a Monte Carlo simulation where the model interacts with stochastic agents and attempts to achieve some overarching goal through the sequence of interactions.
+
+Simulation has the added benefit of exposing the model to lots of different edge cases that could potentially trigger immediate validation issues. If you run the model on a stochastic simulator a large number of times, and it achieves the overarching goal without raising any immediate validation issues along the way, then you can be fairly confident in the model's stability.
+
+That being said, your simulation is unlikely to be a perfect representation of the real world, so it's important to write validation scripts that periodically look at the real data stream to check whether the production model is meeting its overarching goals.
+
+Lastly, note that in order to act on issues exposed by the validation techniques described above, it's essential to make errors reproducible. If your model or simulator are stochastic, then you need to set a random seed and log it along with the error or warning. If the underlying data is changing on the production system, then you need to have some way of generating a snapshot of what the data was like at the moment that the model encountered a validation issue.
 
 
 <h4><b>Don't get derailed by minor data issues.</b></h4>
