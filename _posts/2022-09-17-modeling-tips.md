@@ -137,13 +137,17 @@ In other words, high-quality logs can help you understand the model's emergent b
 
 <h4><b>Hard-code interventions when necessary.</b></h4>
 
-If a model is not producing a desired behavior and you're out of ideas, then
+If a model is not naturally producing a desired behavior and you're out of ideas, then
 
 <ol>
 <li>temporarily hard-code the desired behavior as an "intervention,"</li>
 <li>move on, and</li>
-<li>periodically revisit the intervention to try out more elegant ideas.</li>
+<li>periodically revisit the intervention to try out new ideas.</li>
 </ol>
+
+If you keep the issue in the back of your head and poke at it occasionally when your mind is clear (e.g. in the shower or while driving), it'll eventually give way.
+
+But in the meantime, some kind of solution is needed, even if it's patchwork.
 
 <h4><b>Focus on high-ROI tasks.</b></h4>
 
@@ -172,7 +176,7 @@ Finally, while you can get a lot of stuff done by shutting out distractions and 
 
 If your model exists within a very complex system, then no matter how hard you try, unit tests won't cover all the possible edge cases. So, validation becomes very important.
 
-There are two general categories of validation that I've found useful:
+There are two general categories of validation that I've found to be useful:
 
 <ul>
 <li><i>Immediate validation:</i> validating the model's internal perceptions and decisions at the moment that they occur.</li>
