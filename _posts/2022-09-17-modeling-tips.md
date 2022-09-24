@@ -4,6 +4,12 @@ title:  "(In Progress) Tips for Developing Valuable Models"
 excerpt: "Stuff you don't find in math textbooks."
 ---
 
+<p><center><font color="red"><b>
+<hr>
+* * * This post is currently being drafted. It is not yet complete / refined. * * *
+<hr>
+</b></font></center></p><br>
+
 <h2>At A Glance</h2>
 
 <b>The Problem -</b> Focus on solving a problem that fits you. Start with the problem, not the model. Make sure you understand the problem in reality, not just in theory.
