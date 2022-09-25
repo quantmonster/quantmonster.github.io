@@ -8,7 +8,7 @@ excerpt: "Stuff you don't find in math textbooks."
 <hr>
 * * * This post is currently being drafted. It is not yet complete / refined. * * *
 <hr>
-</b></font></center></p><br>
+</b></font></center></p>
 
 <h2>At A Glance</h2>
 
