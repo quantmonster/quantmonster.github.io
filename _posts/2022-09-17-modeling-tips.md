@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "(In Progress) Tips for Developing Valuable Models"
+title:  "Tips for Developing Valuable Models"
 excerpt: "Stuff you don't find in math textbooks."
 ---
 
+<!--
 <p><center><font color="red"><b>
 <hr>
 * * * This post is currently being drafted. It is not yet complete / refined. * * *
 <hr>
 </b></font></center></p>
+-->
 
 <h2>At A Glance</h2>
 
