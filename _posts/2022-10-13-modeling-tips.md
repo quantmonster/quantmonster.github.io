@@ -20,7 +20,7 @@ excerpt: "Stuff you don't find in math textbooks."
 
 <b>The Development Process -</b> Leverage your emotions. Make your model justify its own decisions. Invest in high-quality logs. Hard-code interventions when necessary. Focus on high-ROI tasks.
 
-<b>Stabilizing the Model -</b> Validate the model's perceptions and decisions. Don't get derailed by minor data issues. Refactor when appropriate.
+<b>Stabilizing the Model -</b> If it's not regularly tested, then it's going to break in the future. Validate the model's perceptions and decisions. Don't get derailed by minor data issues. Refactor when appropriate.
 
 <b>Showcasing the Model -</b> If the goal is to "wow" users, then the model must clearly demonstrate its sophistication.
 
@@ -179,6 +179,15 @@ Finally, while you can get a lot of stuff done by shutting out distractions and 
 
 
 <h2>Stabilizing the Model</h2>
+
+<h4><b>If it's not regularly tested, then it's going to break in the future.</b></h4>
+
+This tip is obvious, but when you're forced to move quickly, it's easy to convince yourself that testing once is good enough.
+
+That's because testing once is good enough <i>for now</i>. Not forever. Just for now. Whatever tests you don't write now, you'll have to write in the future when things start breaking. 
+
+Sometimes that's a price worth paying in return for rapid progress. Other times it's not. It's always a judgement call.
+
   
 <h4><b>Validate the model's perceptions and decisions.</b></h4>
 
