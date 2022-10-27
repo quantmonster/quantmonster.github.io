@@ -24,4 +24,4 @@ After some trial and error, we eventually settled into a systems development rhy
 
 [1] Technically it was a spectrum. There was a minority of students who had a mix of characteristics from the different groups. But even those students leaned significantly further towards one group as opposed to the other.
 
-[2] The ratio of systems coders to quants wasn't actually 1:1. It was more like 1:2, or even 1:3. Though my classes were likely a biased sample, since they were drawn from students who were already in <a href="https://www.mathacademy.us/" target="_blank">Math Academy</a> to begin with.
+[2] The ratio of systems coders to quants wasn't actually 1:1. It was more like 1:2, or even 1:3. However, my classes were likely a biased sample since they were drawn from students who were already in <a href="https://www.mathacademy.us/" target="_blank">Math Academy</a> to begin with.
