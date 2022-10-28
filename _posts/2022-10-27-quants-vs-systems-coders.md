@@ -10,7 +10,7 @@ In one group were the <b>systems coders</b>, who were drawn to developing tangib
 
 In the other group were the <b>quants</b>, who were drawn to developing algorithms that compressed wild jungles of complexity into compact, elegant, generalizable implementations. Their autonomous AI players would be theoretically simple yet highly effective. They loved algorithms assignments. But they were apathetic about adding new features to our game implementation and would often try to offload responsibilities onto others. They would often be resistant to tinkering while debugging, and would often waste time operating under the false assumption that the logic in their head is exactly equivalent to the logic that they've actually implemented.
 
-To keep both groups happy, we alternated "quant" and "systems" weeks. During quant weeks, we would focus on quant-themed tasks like implementing machine learning algorithms and (afterwards) reproducing academic research papers in AI. During systems weeks, we would press forward with implementing <i>Space Empires</i>. Each week, half the class would celebrate and the other half would groan. [2]
+To keep both groups happy, we alternated between quant and systems projects on a weekly basis. During quant weeks, we would focus on quant-themed tasks like implementing machine learning algorithms and (afterwards) reproducing academic research papers in AI. During systems weeks, we would press forward with implementing <i>Space Empires</i>. Each week, half the class would celebrate and the other half would groan. [2]
 
 Interestingly, though, the groans would be disproportionately louder during systems week. The quants hated systems week way more than the systems coders hated quant week.
 
