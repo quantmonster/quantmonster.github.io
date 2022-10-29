@@ -8,7 +8,7 @@ layout: default
     {% for post in site.posts %}
       <li>
         <!--<span class="post-date">{{ post.wordcount }} words | {{ post.date | date: "%b %Y" }}</span>--><!--<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>-->
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <font size="10px" color="#818181">[ {{ post.wordcount }} words | {{ post.date | date: "%b %Y" }} ]</font>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <font size="0.5em" color="#818181">[ {{ post.wordcount }} words | {{ post.date | date: "%b %Y" }} ]</font>
         <br>
         {{ post.excerpt }}
       </li>
