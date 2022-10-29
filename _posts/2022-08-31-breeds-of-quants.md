@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The 5 Breeds of Quants"
-excerpt: "Wizard, revolutionary, philosopher, scientist, businessperson."
+excerpt: "Wizard, revolutionary, philosopher, scientist, businessperson. [~100 words]"
 ---
 
 ... are summarized in the following table.

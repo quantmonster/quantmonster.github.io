@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tips for Developing Valuable Models"
-excerpt: "Stuff you don't find in math textbooks."
+excerpt: "Stuff you don't find in math textbooks. [~3000 words]"
 ---
 
 <!--
