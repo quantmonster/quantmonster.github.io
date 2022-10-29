@@ -166,12 +166,12 @@ a:visited { color: #2A7AE2; }
 
 .posts .post-date {
   display: block;
-  font-size: 15px;
+  font-size: 10px;
   color: #818181;
   text-decoration: none;
 }
 
-.posts .post-meta {
+.posts .post-wordcount {
   display: inline-block;
   font-size: 10px;
   color: #818181;
