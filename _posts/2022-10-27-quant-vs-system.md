@@ -7,9 +7,23 @@ wordcount: 500
 
 While developing and teaching a super-advanced high school applied math/CS <a href="https://www.eurisko.us/" target="_blank">sequence</a> over the course of several years, a trend emerged that each student would eventually grow to exhibit one of two different attitudes towards coding. [1]
 
-In one group were the <b>systems coders</b>, who were drawn to developing tangible systems that they could interact with in "cool" ways. They loved adding new features to our implementation of the game <i>Space Empires</i>, as well as making the UI look aesthetically pleasing. They enjoyed developing autonomous AI players for games but would tend to take a brittle case-based approach with an overwhelming number of cases. They didn't particularly enjoy algorithms assignments and would sometimes attempt to implement algorithms before actually understanding how they work. While debugging, they would often waste time making superficial changes to their code instead of taking the time to gain a deeper understanding of the issue.
+In one group were the <b>systems coders</b>, who were drawn to developing tangible systems that they could interact with in "cool" ways.
 
-In the other group were the <b>quants</b>, who were drawn to developing algorithms that compressed wild jungles of complexity into compact, elegant, generalizable implementations. Their autonomous AI players would be theoretically simple yet highly effective. They loved algorithms assignments. But they were apathetic about adding new features to our game implementation and would often try to offload responsibilities onto others. They would often be resistant to tinkering while debugging, and would often waste time operating under the false assumption that the logic in their head is exactly equivalent to the logic that they've actually implemented.
+<ul>
+<li>They loved adding new features to our implementation of the game <i>Space Empires</i>, as well as making the UI look aesthetically pleasing.</li>
+<li>They enjoyed developing autonomous AI players for games but would tend to take a brittle case-based approach with an overwhelming number of cases.</li>
+<li>They didn't particularly enjoy algorithms assignments and would sometimes attempt to implement algorithms before actually understanding how they work.</li>
+<li>While debugging, they would often waste time making superficial changes to their code instead of taking the time to gain a deeper understanding of the issue.</li>
+</ul>
+
+In the other group were the <b>quants</b>, who were drawn to developing algorithms that compressed wild jungles of complexity into compact, elegant, generalizable implementations.
+
+<ul>
+<li>Their autonomous AI players would be theoretically simple yet highly effective.</li>
+<li>They loved algorithms assignments.</li>
+<li>They were apathetic about adding new features to our game implementation and would often try to offload responsibilities onto others.</li>
+<li>They would often be resistant to tinkering while debugging, and would often waste time operating under the false assumption that the logic in their head is exactly equivalent to the logic that they've actually implemented.</li>
+</ul>
 
 To keep both groups happy, we alternated between quant and systems projects on a weekly basis. During quant weeks, we would focus on quant-themed tasks like implementing machine learning algorithms and (afterwards) reproducing academic research papers in AI. During systems weeks, we would press forward with implementing <i>Space Empires</i>. Each week, half the class would celebrate and the other half would groan. [2]
 
@@ -19,7 +33,13 @@ The systems coders didn't really enjoy quant assignments, but as long as the qua
 
 But getting a quant to participate in collaborative systems development was far more difficult. In the best case, they would try to get away with doing as little work as possible. In the worst case, they would argue that <i>Space Empires</i> was tedious and did not have educational value. 
 
-After some trial and error, we eventually settled into a systems development rhythm that satisfied the quants and leveraged the respective strengths of the systems coders and quants. The systems coders, who were chomping at the bit to add more features and complexity, would be allowed to do so -- but before actually implementing anything, they would have to critically analyze the tradeoffs of the myriad possibilities and get the rest of their team's buy-in on what they were going to implement. If the feature involved any algorithmic complexity that could be isolated into a single component, they would hand the development of that component off to the quants. Otherwise, the quants would work on developing autonomous AI players for the existing version of the game, and as new features were introduced, the quants would extend their autonomous players to exercise and test the new features.
+After some trial and error, we eventually settled into a systems development rhythm that satisfied the quants and leveraged the respective strengths of the systems coders and quants:
+
+<ol>
+<li>The systems coders, who were chomping at the bit to add more features and complexity, would be allowed to do so. (But before actually implementing anything, they would have to critically analyze the tradeoffs of the myriad possibilities and get the rest of their team's buy-in on what they were going to implement.)</li>
+<li>If the feature involved any algorithmic complexity that could be isolated into a single component, they would hand the development of that component off to the quants.</li>
+<li>Otherwise, the quants would work on developing autonomous AI players for the existing version of the game, and as new features were introduced, the quants would extend their autonomous players to exercise and test the new features.</li>
+</ol>
 
 <h2>Notes</h2>
 
