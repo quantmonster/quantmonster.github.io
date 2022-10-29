@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Quants vs Systems Coders (In Progress)"
+title:  "Quants vs Systems Coders"
 excerpt: "Two subtypes of coders that I watched students grow into."
 wordcount: 500
 ---
