@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Quants vs Systems Coders (In Progress)"
-excerpt: "Two subtypes of coders that I watched students grow into. [~500 words]"
+excerpt: "Two subtypes of coders that I watched students grow into."
+wordcount: 500
 ---
 
 While developing and teaching a super-advanced high school applied math/CS <a href="https://www.eurisko.us/" target="_blank">sequence</a> over the course of several years, a trend emerged that each student would eventually grow to exhibit one of two different attitudes towards coding. [1]

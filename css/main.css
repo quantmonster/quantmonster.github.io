@@ -171,6 +171,12 @@ a:visited { color: #2A7AE2; }
   text-decoration: none;
 }
 
+.posts .post-wordcount {
+  font-size: 10px;
+  color: #818181;
+  text-decoration: none;
+}
+
 
 /* Post styles */
 /* ----------------------------------------------------------*/
